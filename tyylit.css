@@ -1,0 +1,88 @@
+#joukkuediv { 
+	float: left; 
+    width: 25vw; 
+	outline:1px solid black;
+	margin-left: 1%;
+}
+
+#rastitdiv{ 
+	float: left; 
+	width: 25vw; 
+	outline:1px solid black;
+	margin-right: 1%;
+}
+
+#kartalladiv{ 
+	float: left;
+	width: 45vw; 
+	outline:1px solid black;
+	margin-right: 1%; 
+	margin-left: 1%; 
+}
+
+
+body { 
+	overflow: hidden;
+	margin: 0;
+}
+
+#otsikot {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	text-align: center;
+}
+
+.kapea_ots {
+	width: 25vw;
+}
+
+.levea_ots{
+	width: 50vw;
+}
+ 
+ul {
+	list-style-type: none;
+	padding-right: 0em;
+	padding-left: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+    margin-top: 0px;
+}
+
+ul li {
+    font-size: 1.3vh;
+}
+
+#kartalla li{
+	display: inline;
+}
+
+#rastit{
+    column-count: 4;
+    column-gap: 1vw;
+}
+
+
+
+#kartalladiv{
+	height: 40vh;
+}
+
+#joukkuediv {
+	height: 40vh;
+}
+
+#rastitdiv {
+	height: 40vh;
+}
+
+#map {
+    height: 45vh;
+    width: 100vw;
+}
+
+.rastinumero {
+    font-size: small;
+	text-align: center;
+}
